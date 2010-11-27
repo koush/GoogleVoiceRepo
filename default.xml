@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<manifest>
+
+  <remote name="korg" fetch="git://android.git.kernel.org/" review="review.source.android.com"/>
+  <remote name="github" fetch="git://github.com/" />
+  <remote name="gitorious" fetch="git://gitorious.org" />
+  <remote name="origin" fetch="git@github.com:koush/" />
+
+  <default revision="master" remote="origin" />
+
+  <project path="GoogleVoice" name="GoogleVoice" />
+  <project path="sqlite-net" name="sqlite-net" />
+  <project path="csharp-sqlite" name="csharp-sqlite" />
+  <project path="json-net" name="json-net" />
+</manifest>
